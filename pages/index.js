@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const WEB_PAGE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Bästa Kosttillskotten 2026 | Jämför & Köp Nu\",\"description\":\"Bästa kosttillskotten för sommarträning 2026 ✓ Uppdaterad 2026. Jämför 8 alternativ och optimera din träning. Klicka för att läsa mer.\",\"url\":\"https://halskollen.vercel.app\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"inLanguage\":\"sv-SE\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hälskollen\",\"url\":\"https://halskollen.vercel.app\"},\"breadcrumb\":{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hem\",\"item\":\"https://halskollen.vercel.app\"}]}}";
-const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bästa kosttillskotten för sommarträning 2026 — jämför 8 alternativ — Jämförelse 2026\",\"description\":\"Uppnå dina träningsmål med rätt kosttillskott i sommar\",\"numberOfItems\":8,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"Gymgrossisten\",\"url\":\"https://www.gymgrossisten.com\",\"description\":\"Sveriges ledande hälsokostbutik — protein, vitaminer & kosttillskott\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"127\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Bodystore\",\"url\":\"https://www.bodystore.com\",\"description\":\"Premium hälsokost med fokus på kvalitet och märkesprodukter\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"474\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"Proteinbolaget\",\"url\":\"https://www.proteinbolaget.se\",\"description\":\"Prisvärt proteinpulver och sportnäring — bäst pris per kilo\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"269\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"iHerb\",\"url\":\"https://www.iherb.com\",\"description\":\"Internationellt utbud — 35 000+ produkter levererat till Sverige\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"257\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"Holland & Barrett\",\"url\":\"https://www.hollandandbarrett.se\",\"description\":\"Brittisk hälsokedja med fokus på naturliga kosttillskott\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"188\"}}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"Product\",\"name\":\"Sportamore\",\"url\":\"https://www.sportamore.se\",\"description\":\"Sport och träning — kläder, utrustning och sportnäring\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"405\"}}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"Product\",\"name\":\"Vitaminstore\",\"url\":\"https://www.vitaminstore.se\",\"description\":\"Specialiserad vitamin- och mineralbutik — enkelt att hitta rätt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.4\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"110\"}}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"Product\",\"name\":\"Nyttoteket\",\"url\":\"https://www.nyttoteket.se\",\"description\":\"Ekologisk hälsokost och naturläkemedel — rena ingredienser\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.4\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"367\"}}}]}";
+const ITEM_LIST_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Bästa kosttillskotten för sommarträning 2026 — jämför 8 alternativ — Jämförelse 2026\",\"description\":\"Uppnå dina träningsmål med rätt kosttillskott i sommar\",\"numberOfItems\":8,\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"Product\",\"name\":\"Gymgrossisten\",\"url\":\"https://www.gymgrossisten.com\",\"description\":\"Sveriges ledande hälsokostbutik — protein, vitaminer & kosttillskott\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"375\"}}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"Product\",\"name\":\"Bodystore\",\"url\":\"https://www.bodystore.com\",\"description\":\"Premium hälsokost med fokus på kvalitet och märkesprodukter\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.7\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"342\"}}},{\"@type\":\"ListItem\",\"position\":3,\"item\":{\"@type\":\"Product\",\"name\":\"Proteinbolaget\",\"url\":\"https://www.proteinbolaget.se\",\"description\":\"Prisvärt proteinpulver och sportnäring — bäst pris per kilo\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"152\"}}},{\"@type\":\"ListItem\",\"position\":4,\"item\":{\"@type\":\"Product\",\"name\":\"iHerb\",\"url\":\"https://www.iherb.com\",\"description\":\"Internationellt utbud — 35 000+ produkter levererat till Sverige\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.6\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"290\"}}},{\"@type\":\"ListItem\",\"position\":5,\"item\":{\"@type\":\"Product\",\"name\":\"Holland & Barrett\",\"url\":\"https://www.hollandandbarrett.se\",\"description\":\"Brittisk hälsokedja med fokus på naturliga kosttillskott\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"355\"}}},{\"@type\":\"ListItem\",\"position\":6,\"item\":{\"@type\":\"Product\",\"name\":\"Sportamore\",\"url\":\"https://www.sportamore.se\",\"description\":\"Sport och träning — kläder, utrustning och sportnäring\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.5\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"301\"}}},{\"@type\":\"ListItem\",\"position\":7,\"item\":{\"@type\":\"Product\",\"name\":\"Vitaminstore\",\"url\":\"https://www.vitaminstore.se\",\"description\":\"Specialiserad vitamin- och mineralbutik — enkelt att hitta rätt\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.4\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"440\"}}},{\"@type\":\"ListItem\",\"position\":8,\"item\":{\"@type\":\"Product\",\"name\":\"Nyttoteket\",\"url\":\"https://www.nyttoteket.se\",\"description\":\"Ekologisk hälsokost och naturläkemedel — rena ingredienser\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.4\",\"bestRating\":\"5\",\"worstRating\":\"1\",\"ratingCount\":\"138\"}}}]}";
 const ARTICLE_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Bästa kosttillskotten för sommarträning 2026 — jämför 8 alternativ\",\"description\":\"Uppnå dina träningsmål med rätt kosttillskott i sommar\",\"datePublished\":\"2026-06-23\",\"dateModified\":\"2026-06-23\",\"author\":{\"@type\":\"Organization\",\"name\":\"Hälskollen\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Hälskollen\"},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://halskollen.vercel.app\"}}";
 const FAQ_SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Vilka är de bästa kosttillskotten för träning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"De bästa kosttillskotten varierar beroende på dina mål. Vanliga alternativ inkluderar proteinpulver, BCAA och kreatin.\"}},{\"@type\":\"Question\",\"name\":\"När ska man ta kosttillskott?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Tidsplaneringen för kosttillskott beror på typen. Proteinpulver tas ofta efter träning, medan vitaminer kan tas på morgonen.\"}},{\"@type\":\"Question\",\"name\":\"Är det nödvändigt med kosttillskott?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Kosttillskott är inte nödvändiga för alla, men de kan hjälpa till att komplettera din diet och förbättra träningsresultat.\"}},{\"@type\":\"Question\",\"name\":\"Vilket kosttillskott är bäst för muskelökning?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"För muskelökning är proteinpulver och kreatin populära val eftersom de stödjer muskelåterhämtning och tillväxt.\"}},{\"@type\":\"Question\",\"name\":\"Kan jag ta kosttillskott varje dag?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ja, de flesta kosttillskott kan tas dagligen, men det är viktigt att följa rekommenderad dosering och konsultera en läkare vid behov.\"}},{\"@type\":\"Question\",\"name\":\"Var kan jag köpa kosttillskott online?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Du kan köpa kosttillskott från leverantörer som Gymgrossisten, Bodystore och Proteinbolaget för att garantera kvalitet.\"}},{\"@type\":\"Question\",\"name\":\"Är naturliga kosttillskott bättre än syntetiska?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Naturliga kosttillskott föredras ofta för att de anses ha färre tillsatser, men syntetiska kan vara lika effektiva.\"}},{\"@type\":\"Question\",\"name\":\"Hur vet jag vilket kosttillskott jag behöver?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Identifiera dina träningsmål och konsultera med en näringsexpert för att avgöra vilka kosttillskott som passar dig bäst.\"}}]}";
 
@@ -51,10 +51,10 @@ export default function Home({ providers, year, month, updated }) {
   const pcLight = '#be185d14';
   const pcMed = '#be185d30';
 
-  const TRACK_BASE = 'axiom-engine-production-54c3.up.railway.app/r';
+  const TRACK_BASE = 'https://axiom-engine-production-54c3.up.railway.app/r';
   const SITE_SLUG = 'halskollen';
   const AffBtn = ({ url, name, primary }) => {
-    var href = TRACK_BASE && TRACK_BASE !== '/r'
+    var href = TRACK_BASE && TRACK_BASE.startsWith('http')
       ? TRACK_BASE + '?p=' + encodeURIComponent(name) + '&url=' + encodeURIComponent(url) + '&site=' + SITE_SLUG
       : url;
     return (
@@ -218,45 +218,31 @@ export default function Home({ providers, year, month, updated }) {
           </div>
         )}
 
-        
-        <div>
-          {visible[0] && (
-            <div style={{ display:'flex', gap:24, background:pc+'0d', border:'2px solid '+pc, borderRadius:18, padding:'24px 28px', marginBottom:22, flexWrap:'wrap' }}>
-              <div style={{ width:80, height:80, borderRadius:16, background:pc+'25', color:pc, display:'flex', alignItems:'center', justifyContent:'center', fontSize:34, fontWeight:800, flexShrink:0 }}>{visible[0].name[0]}</div>
-              <div style={{ flex:1, minWidth:200 }}>
-                <div style={{ fontSize:11, fontWeight:800, color:pc, letterSpacing:'0.5px', marginBottom:6, textTransform:'uppercase' }}>⭐ Redaktionens val</div>
-                <div style={{ fontSize:22, fontWeight:800, color:'#0f172a', marginBottom:6 }}>{visible[0].name}</div>
-                <div style={{ fontSize:14, color:'#64748b', marginBottom:12, lineHeight:1.6 }}>{visible[0].description}</div>
-                <div style={{ display:'flex', gap:16, alignItems:'center', flexWrap:'wrap' }}>
-                  <span style={{ fontSize:22, fontWeight:800, color:pc }}>{visible[0].currentPrice||visible[0].price}</span>
-                  {visible[0].badge && <span style={{ background:pc+'18', color:pc, fontSize:12, fontWeight:700, padding:'3px 10px', borderRadius:8 }}>{visible[0].badge}</span>}
+        <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
+          {visible.map((p, i) => (
+            <div key={p.name} style={{ background:'#fff', border: i===0 ? '2px solid '+pc : '1px solid #e2e8f0', borderRadius:16, padding:'22px 26px', position:'relative', boxShadow: i===0 ? '0 4px 24px '+pc+'18' : '0 1px 4px #0000000a' }}>
+              {i===0 && <div style={{ position:'absolute', top:-15, left:22, background:pc, color:'#fff', fontSize:11, fontWeight:800, padding:'3px 14px', borderRadius:12, letterSpacing:'0.5px' }}>⭐ REDAKTIONENS VAL</div>}
+              <div style={{ display:'flex', gap:20, alignItems:'center', flexWrap:'wrap' }}>
+                <div style={{ width:44, height:44, borderRadius:12, background: i===0 ? pcLight : '#f8fafc', display:'flex', alignItems:'center', justifyContent:'center', fontWeight:800, fontSize:16, color: i===0 ? pc : '#64748b', flexShrink:0, border:'1px solid '+(i===0 ? pcMed : '#e2e8f0') }}>
+                  {['1','2','3','4','5'][i] || (i+1)}
                 </div>
-                <div style={{ marginTop:12, display:'flex', gap:16, alignItems:'center', flexWrap:'wrap' }}>
-                  <AffBtn url={visible[0].url} name={visible[0].name} primary={true} />
-                  {visible[0].score && <span style={{ fontSize:13, color:'#64748b' }}>⭐ {visible[0].score}/10</span>}
+                <div style={{ flex:1, minWidth:200 }}>
+                  <div style={{ fontWeight:800, fontSize:18, color:'#0f172a', marginBottom:3 }}>{p.name}</div>
+                  <div style={{ fontSize:13, color:'#64748b', marginBottom:10 }}>{p.description}</div>
+                  {p.pros && <div style={{ display:'flex', flexDirection:'column', gap:5 }}>{p.pros.map((pro, j) => (<div key={j} style={{ display:'flex', gap:7, alignItems:'flex-start', fontSize:13 }}><span style={{ color:pc, fontWeight:700, flexShrink:0 }}>✓</span><span style={{ color:'#374151' }}>{pro}</span></div>))}</div>}
+                </div>
+                <div style={{ textAlign:'right', minWidth:190, display:'flex', flexDirection:'column', alignItems:'flex-end', gap:8 }}>
+                  <div style={{ fontSize:22, fontWeight:800, color:pc }}>{p.currentPrice || p.price}</div>
+                  <Stars score={p.score} />
+                  <div style={{ background:'#f0fdf4', color:'#15803d', fontSize:11, fontWeight:700, padding:'3px 10px', borderRadius:8 }}>{p.badge}</div>
+                  <AffBtn url={p.url} name={p.name} primary={i===0} />
+                  <button onClick={() => toggleSelect(p.name)} style={{ padding:'7px 14px', borderRadius:8, fontSize:12, fontWeight:600, cursor: selected.includes(p.name) || selected.length < 3 ? 'pointer' : 'not-allowed', fontFamily:'Inter,sans-serif', border:'1px solid', borderColor: selected.includes(p.name) ? pc : '#e2e8f0', background: selected.includes(p.name) ? pcLight : '#fff', color: selected.includes(p.name) ? pc : '#64748b', opacity: !selected.includes(p.name) && selected.length >= 3 ? 0.4 : 1 }}>
+                    {selected.includes(p.name) ? '✓ Vald' : '+ Jämför'}
+                  </button>
                 </div>
               </div>
             </div>
-          )}
-          <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(280px,1fr))', gap:14 }}>
-            {visible.slice(1).map((p, i) => (
-              <div key={p.name} style={{ background:'#fff', border:'1px solid #e2e8f0', borderRadius:14, padding:'20px 22px', display:'flex', flexDirection:'column', gap:10 }}>
-                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start' }}>
-                  <div style={{ fontWeight:800, fontSize:16, color:'#0f172a' }}>{p.name}</div>
-                  {p.badge && <span style={{ fontSize:11, background:pc+'15', color:pc, padding:'2px 9px', borderRadius:8, fontWeight:700, flexShrink:0, marginLeft:8 }}>{p.badge}</span>}
-                </div>
-                <div style={{ fontSize:13, color:'#64748b', lineHeight:1.55 }}>{p.description}</div>
-                <div style={{ fontSize:20, fontWeight:800, color:pc }}>{p.currentPrice||p.price}</div>
-                <div style={{ display:'flex', flexDirection:'column', gap:4 }}>
-                  {(p.pros||[]).slice(0,2).map((pr,j) => (<div key={j} style={{ fontSize:12, color:'#374151', display:'flex', gap:6 }}><span style={{ color:pc, fontWeight:700 }}>✓</span>{pr}</div>))}
-                </div>
-                <div style={{ marginTop:'auto', paddingTop:10, display:'flex', alignItems:'center', justifyContent:'space-between' }}>
-                  {p.score && <span style={{ fontSize:12, color:'#94a3b8' }}>⭐ {p.score}/10</span>}
-                  <AffBtn url={p.url} name={p.name} primary={false} />
-                </div>
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
 
         <div style={{ textAlign:'center', marginTop:20, marginBottom:4, display:'flex', flexDirection:'column', alignItems:'center', gap:8 }}>
